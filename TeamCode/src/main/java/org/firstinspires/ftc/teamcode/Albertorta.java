@@ -277,7 +277,7 @@ public class Albertorta extends OpMode {
         //telemetry.addData("LB Revs/Minute:",this::getRevsfromLB);
         telemetry.addData("Adjusted Yaw", AjustedYaw);
         telemetry.addData("yaw", imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.RADIANS));
-        telemetry.addData("InitYawc", InitYaw);
+        telemetry.addData("InitYaw", InitYaw);
 
         telemetry.update();
 
